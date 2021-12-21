@@ -1,0 +1,5 @@
+<p>parent works!</p>
+<app-name-card (newItemEvent)="addItem($event)"></app-name-card>
+<div *ngFor="let item of items">
+  <p>{{item}}</p>
+</div>
